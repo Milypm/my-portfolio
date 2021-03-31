@@ -9,39 +9,40 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   </head>
 
-  <body class="d-flex flex-column">
-    <header class="d-flex">
-      <div class="header-left d-flex flex-column justify-content-between align-items-center">
+  <body>
+    <header class="header-full d-flex">
+      <div class="header-image-container">
+        <div class="header-back-gradient"></div>
+        <div class="header-back-img"></div>
+      </div>
+      <div class="header-left">
         <div class="header-initials rounded-circle">
           <h4>MP</h4>
         </div>
         <nav>
-          <ul class="navbar-ul d-flex flex-column justify-content-between" style="height: 160px;">
-            <a href=""><li>Intro</li></a>
-            <a href=""><li>Portfolio</li></a>
-            <a href=""><li>About</li></a>
-            <a href=""><li>Contact</li></a>
+          <ul class="navbar-ul">
+            <a href="#" class="navbar-intro"><li>Intro</li></a>
+            <a href="#"><li>Portfolio</li></a>
+            <a href="#"><li>About</li></a>
+            <a href="#"><li>Contact</li></a>
           </ul>
         </nav>
       </div>
-      <div class="header-right-container">
-        <div class="header-back-gradient"></div>
-        <div class="header-back-img"></div>
-        <i class="big-circle fas fa-circle"></i>
-        <i class="tiny-circle fas fa-circle"></i>
-        <div class="header-right-text">
-          <h1>Mily Puente</h1>
-          <h3>Software Developer</h3>
-          <div class="header-paragraph">
-            <p>Hello!...</p>
-          </div>
-          <div class="header-social-icons-bar d-flex d-flex justify-content-between align-items-center">
-            <span>Visit my social networks</span>
-            <div class="header-social-icons d-flex justify-content-between">
-              <a href="https://github.com/Milypm"><i class="fab fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/milypuente/"><i class="fab fa-linkedin-in"></i></a>
-              <a href="https://twitter.com/MilyPuente"><i class="fab fa-twitter"></i></a>
-            </div>
+      <div class="header-right">
+        <h1>Mily Puente</h1>
+        <h3>Full-stack Developer</h3>
+        <p class="header-paragraph">
+          Hello! I'm a software developer. I would love to help you
+          build your website, app or feature. These are some of my personal
+          projects, I'm always learning new skills to increase
+          my technical experience.
+        </p>
+        <div class="header-social-icons-bar">
+          <span>Feel free to visit my social networks</span>
+          <div class="header-social-icons d-flex justify-content-between">
+            <a href="https://github.com/Milypm"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/milypuente/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/MilyPuente"><i class="fab fa-twitter"></i></a>
           </div>
         </div>
       </div>
@@ -49,61 +50,89 @@
     <!--============= Main content =============-->
     <main>
       <section class="projects">
-        <h3>My Portfolio</h3>
-        <div class="projects-grid" style="height: 800px;">
-          <div class="projects-grid-item-img">
-            <h6>Project 1</h6>
-            <button type="button">See repo</button>
+        <h3>My Projects</h3>
+        <!--====== Bohemian festival project =========-->
+        <div class="project-row">
+          <div class="html-capstone-img">
+            <img src="assets/images/bohemian-fest-iphone.png" class="html-capstone-mobile">
           </div>
-          <div class="projects-grid-item">
-            <h5>Project 1Project 1Project 1
-              Project 1Project 1Project 1
-              Project 1Project 1Project 1
+          <div class="projects-item">
+            <h4>Bohemian Festival</h4>
+            <h5>Responsive website for a fictional concert.</br>
+              Built with HTML5 and CSS3.
             </h5>
+            <div class="projects-btns">
+              <a href="https://github.com/Milypm/Capstone-HTML-CSS" class="projects-btn-git btn-primary">Github</a>
+              <a href="https://milypm.github.io/Capstone-HTML-CSS/" class="projects-btn-demo btn-outline-primary">Live</a>
+            </div>
           </div>
-          <div class="projects-grid-item">
-            <h5>Project 2Project 2Project 2
-              Project 2Project 2Project 2
-              Project 2Project 2Project 2
+        </div>
+        <hr class="projects-line">
+        <!--====== Tic-Tac-Toe project =========-->
+        <div class="project-row project-reverse">
+          <div class="projects-item my-4">
+            <h4>Tic-Tac-Toe</h4>
+            <h5>Command line app, emulating the classic game.</br>
+              Built with Ruby.</br>Try it in the<span class="text-decoration-underline">Console</span>!
+              <i class="far fa-hand-point-right"></i><i class="far fa-hand-point-up"></i>
+              </br>
+              Click 'run' button ( <i class="fas fa-play"></i> )
             </h5>
+            <div class="projects-btns-one">
+              <a href="https://github.com/Milypm/Ruby_OOP_TicTacToe" class="projects-btn-git btn-primary">Github</a>
+            </div>
           </div>
-          <div class="projects-grid-item-img">
-            <h6>Project 2</h6>
-            <button type="button">See repo</button>
-          </div>
-          <div class="projects-grid-item-img">
-            <h6>Project 3</h6>
-            <button type="button">See repo</button>
-          </div>
-          <div class="projects-grid-item">
-            <h5>Project 3Project 3Project 3
-              Project 3Project 3Project 3
-              Project 3Project 3Project 3
+          <!--<iframe class="replit" frameborder="0" src="https://repl.it/@Milypm/RubyOOPTicTacToe?lite=true"></iframe>-->
+        </div>
+        <hr class="projects-line">
+        <!--====== Private events project =========-->
+        <div class="project-row">
+          <div class="private-events-img"></div>
+          <div class="projects-item my-4">
+            <h4>Private Events</h4>
+            <h5>App including user registration/edition/deletion, 
+              events creation and events attendance/unattendance.</br>
+              Built with Ruby/Ruby on Rails, HTML5, and CSS3/Bootstrap.
             </h5>
+            <div class="projects-btns-one">
+              <a href="https://github.com/Milypm/private-events" class="projects-btn-git btn-primary">Github</a>
+            </div>
           </div>
-          <div class="projects-grid-item">
-            <h5>Project 4Project 4Project 4
-              Project 4Project 4Project 4
-              Project 4Project 4Project 4
+        </div>
+        <hr class="projects-line">
+        <!--====== RoR capstone project =========-->
+        <div class="project-row project-reverse">
+          <div class="projects-item my-4">
+            <h4>Exerscan</h4>
+            <h5>Mobile app that keeps track of exercises/workout routines
+                and categorize/group them.<br>Built with Ruby/RoR, HTML5, and CSS3/Bootstrap.
             </h5>
+            <div class="projects-btns">
+              <a href="https://github.com/Milypm/group_by_exercise" class="projects-btn-git btn-primary">Github</a>
+              <a href="https://afternoon-taiga-35378.herokuapp.com" class="projects-btn-demo btn-outline-primary">Live</a>
+            </div>
           </div>
-          <div class="projects-grid-item-img">
-            <h6>Project 4</h6>
-            <button type="button" class="btn btn-primary">See repo</button>
+          <div class="ror-capstone-img">
+            <img src="assets/images/ror-capstone-2.png" class="ror-capstone-1">
+            <img src="assets/images/ror-capstone-1.png" class="ror-capstone-2">
+            <img src="assets/images/ror-capstone-3.png" class="ror-capstone-3">
           </div>
         </div>
       </section>
       <!--================= About me section =================-->
       <section class="about-me">
         <h3>About me</h3>
-        <p>Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.
+        <p>I'm a developer oriented to detail, I think that functionality
+            and design can be good partners.
+            I love commiting myself with a project and do a bit more from
+            what is expected. Take a look at some of my work!
+            If you like it and think I can help you with coding, please don't
+            hesitate to get in touch.
         </p>
-        <button type="button" class="btn btn-primary rounded-pill px-5 py-3">Get my resume</button>
+        <button type="button" class="btn btn-primary rounded-pill py-3 px-5">Get my resume</button>
       </section>
       <!--================= Skills section =================-->
-      <section class="skills d-flex justify-content-between">
+      <section class="skills">
         <ul class="skills-item">
           <li><h5>Languages</h5></li>
           <li>HTML5</li>
@@ -123,10 +152,10 @@
           <li>Git</li>
           <li>Github</li>
           <li>Linux/Ubuntu</li>
+          <li>Remote programming</li>
         </ul>
         <ul class="skills-item">
-          <li><h5>Professional Skills</h5></li>
-          <li>Remote programming</li>
+          <li><h5>Soft Skills</h5></li>
           <li>Efficient communication</li>
           <li>Team-work</li>
           <li>Self-learning</li>
@@ -135,17 +164,14 @@
       </section>
     </main>
     <!--================ Footer ================-->
-    <footer>
-      <span class="footer-back-gradient"></span>
-      <div class="footer-container d-flex flex-column">
-        <div class="footer-social-icons d-flex">
+    <footer class="footer-main">
+      <div class="footer-icons-text">
+        <div class="footer-social-icons">
           <a href="https://github.com/Milypm"><i class="fab fa-github"></i></a>
           <a href="https://www.linkedin.com/in/milypuente/"><i class="fab fa-linkedin-in"></i></a>
           <a href="https://twitter.com/MilyPuente"><i class="fab fa-twitter"></i></a>
         </div>
-        <div class="footer-year-legend">
-          <p>2021 Microverse</p>
-        </div>
+        <p class="footer-year-legend">2021 Microverse</p>
       </div>
     </footer>
   </body>
