@@ -24,6 +24,7 @@
             <a href="#intro-link" class="navbar-intro"><li>Intro</li></a>
             <a href="#projects-link"><li>Projects</li></a>
             <a href="#about-link"><li>About</li></a>
+            <a href="#contact-link"><li>Contact</li></a>
           </ul>
         </nav>
       </div>
@@ -52,17 +53,19 @@
         <h3 id="projects-link">My Projects</h3>
         <!--====== Bohemian festival project =========-->
         <div class="project-row projects-row-bottom">
-          <div class="html-capstone-img">
-            <img src="assets/images/bohemian-fest-iphone.png" class="html-capstone-mobile">
-          </div>
-          <div class="projects-item">
+          <img src="assets/images/html-capstone.png" class="html-capstone-img">
+          <img src="assets/images/bohemian-fest-iphone.png" class="html-capstone-mobile">         
+          <div class="projects-item project-item-bohemian">
             <h4>Bohemian Festival</h4>
             <h5>Responsive website for a fictional concert.</br>
-              Built with HTML5 and CSS3.
+              <div class="projects-tools-tags">
+                <span>HTML5 / CSS3</span>
+              </div>
             </h5>
             <div class="projects-btns">
-              <a href="https://github.com/Milypm/Capstone-HTML-CSS" class="projects-btn-git btn-primary">Github</a>
-              <a href="https://milypm.github.io/Capstone-HTML-CSS/" class="projects-btn-demo btn-outline-primary">Live</a>
+              <a href="https://github.com/Milypm/Capstone-HTML-CSS" class="projects-btn-hide projects-btn-git btn-primary">Github</a>
+              <a href="https://milypm.github.io/Capstone-HTML-CSS/" class="projects-btn-hide projects-btn-demo btn-outline-primary">Live</a>
+              <a href="https://milypm.github.io/Capstone-HTML-CSS/" class="projects-btn-notshow projects-btn-git btn-primary">See the Project</a>
             </div>
           </div>
         </div>
@@ -72,29 +75,35 @@
           <div class="projects-item my-4">
             <h4>Tic-Tac-Toe</h4>
             <h5>Command line app, emulating the classic game.</br>
-              Built with Ruby.</br>Try it in the<span class="text-decoration-underline">Console</span>!
+              Try it in the<span class="text-decoration-underline"> Console</span>!
               <i class="far fa-hand-point-right"></i><i class="far fa-hand-point-up"></i>
               </br>
-              Click 'run' button ( <i class="fas fa-play"></i> )
+              <div class="projects-tools-tags">
+                <span>Ruby</span>
+              </div>
             </h5>
             <div class="projects-btns-one">
-              <a href="https://github.com/Milypm/Ruby_OOP_TicTacToe" class="projects-btn-git btn-primary">Github</a>
+              <a href="https://github.com/Milypm/Ruby_OOP_TicTacToe" class="projects-btn-hide projects-btn-git btn-primary">Github</a>
+              <a href="https://github.com/Milypm/Ruby_OOP_TicTacToe" class="projects-btn-notshow projects-btn-git btn-primary">See the Project</a>
             </div>
           </div>
-          <iframe class="replit" frameborder="0" src="https://repl.it/@Milypm/RubyOOPTicTacToe?lite=true"></iframe>
+          <!-- <iframe class="replit" frameborder="0" src="https://repl.it/@Milypm/RubyOOPTicTacToe?lite=true"></iframe> -->
         </div>
         <hr class="projects-line">
         <!--====== Private events project =========-->
         <div class="project-row projects-row-bottom">
-          <div class="private-events-img"></div>
+          <img src="assets/images/private-events.jpg" class="private-events-img">
           <div class="projects-item my-4">
             <h4>Private Events</h4>
             <h5>App including user registration/edition/deletion, 
               events creation and events attendance/unattendance.</br>
-              Built with Ruby/Ruby on Rails, HTML5, and CSS3/Bootstrap.
+              <div class="projects-tools-tags">
+                <span>Ruby / Rails</span><span>HTML5 / CSS3</span><span>Bootstrap</span>
+              </div>
             </h5>
             <div class="projects-btns-one">
-              <a href="https://github.com/Milypm/private-events" class="projects-btn-git btn-primary">Github</a>
+              <a href="https://github.com/Milypm/private-events" class="projects-btn-hide projects-btn-git btn-primary">Github</a>
+              <a href="https://github.com/Milypm/private-events" class="projects-btn-notshow projects-btn-git btn-primary">See the Project</a>
             </div>
           </div>
         </div>
@@ -104,16 +113,19 @@
           <div class="projects-item my-4">
             <h4>Exerscan</h4>
             <h5>Mobile app that keeps track of exercises/workout routines
-                and categorize/group them.<br>Built with Ruby/RoR, HTML5, and CSS3/Bootstrap.
+                and categorize/group them.<br>
+                <div class="projects-tools-tags">
+                  <span>Ruby / Rails</span><span>HTML5 / CSS3</span><span>Bootstrap</span>
+                </div>
             </h5>
             <div class="projects-btns">
-              <a href="https://github.com/Milypm/group_by_exercise" class="projects-btn-git btn-primary">Github</a>
-              <a href="https://afternoon-taiga-35378.herokuapp.com" class="projects-btn-demo btn-outline-primary">Live</a>
+              <a href="https://github.com/Milypm/group_by_exercise" class="projects-btn-hide projects-btn-git btn-primary">Github</a>
+              <a href="https://afternoon-taiga-35378.herokuapp.com" class="projects-btn-hide projects-btn-demo btn-outline-primary">Live</a>
+              <a href="https://afternoon-taiga-35378.herokuapp.com" class="projects-btn-notshow projects-btn-git btn-primary">See the Project</a>
             </div>
           </div>
           <div class="ror-capstone-img">
             <img src="assets/images/ror-capstone-2.png" class="ror-capstone-1">
-            <img src="assets/images/ror-capstone-1.png" class="ror-capstone-2">
             <img src="assets/images/ror-capstone-3.png" class="ror-capstone-3">
           </div>
         </div>
@@ -121,15 +133,15 @@
       <!--================= About me section =================-->
       <section class="about-me">
         <h3 id="about-link">About me</h3>
-        <p>I'm an oriented to detail developer, I think that functionality
+        <p>I'm a detail-oriented developer, I think that functionality
             and design can be good partners.
-            I love commiting myself with a project and do a bit more from
+            I love commiting myself to a project and do a bit more from
             what is expected. Take a look at some of my work!
             If you like it and think I can help you with coding, please don't
             hesitate to get in touch.
         </p>
         <a href="https://docs.google.com/document/d/128qo95dP7jovYH4gBtcEjvL4DRnZGqnUiAa0GuzBoek/edit?usp=sharing"
-          class="btn btn-primary rounded-pill py-3 px-5">Get my resume</a>
+          class="btn btn-primary fw-bold rounded-pill py-3 px-5">Get my resume</a>
       </section>
       <!--================= Skills section =================-->
       <section class="skills">
@@ -148,28 +160,34 @@
           <li>Capybara</li>
         </ul>
         <ul class="skills-item">
-          <li><h5>Tech Skills</h5></li>
+          <li><h5>Tech-Skills</h5></li>
           <li>Git</li>
           <li>Github</li>
           <li>Linux/Ubuntu</li>
           <li>Remote programming</li>
         </ul>
         <ul class="skills-item">
-          <li><h5>Soft Skills</h5></li>
-          <li>Efficient communication</li>
+          <li><h5>Soft-Skills</h5></li>
+          <li>Effective communication</li>
+          <li>Detail-oriented</li>
           <li>Team-work</li>
           <li>Self-learning</li>
-          <li>Detail-oriented</li>
         </ul>
       </section>
     </main>
     <!--================ Footer ================-->
     <footer class="footer-main">
       <div class="footer-icons-text">
-        <div class="footer-social-icons">
-          <a href="https://github.com/Milypm"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/milypuente/"><i class="fab fa-linkedin-in"></i></a>
-          <a href="https://twitter.com/MilyPuente"><i class="fab fa-twitter"></i></a>
+        <div class="footer-mail-icons">
+          <div class="d-flex">
+            <i class="fas fa-paper-plane"></i>
+            <p class="my-email" id="contact-link">milypuentem@gmail.com</p>
+          </div>
+          <div class="footer-social-icons">
+            <a href="http_morones@hots://github.com/Milypm"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/milypuente/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/MilyPuente"><i class="fab fa-twitter"></i></a>
+          </div>
         </div>
         <p class="footer-year-legend">2021 Microverse</p>
       </div>
