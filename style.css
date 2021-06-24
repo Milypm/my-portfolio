@@ -819,3 +819,10 @@ main {
     margin-bottom: 0;
   }
 }
+
+@media (min-width: 1441px) and (max-width: 2100px) {
+  body {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
