@@ -7,9 +7,7 @@
   src: url('Grandstander-VariableFont_wght.ttf') format("truetype");
 }
 
-h5 .fa-hand-point-up,
-.projects-btns .projects-btn-notshow,
-.projects-btns-one .projects-btn-notshow {
+h5 .fa-hand-point-up {
   display: none;
 }
 
@@ -155,7 +153,6 @@ main {
   width: 100%;
   display: flex;
   flex-direction: column;
-  text-align: center;
   margin-top: 20px;
   color: #454d4d;
 }
@@ -459,7 +456,6 @@ main {
   .navbar-intro,
   h5 .fa-hand-point-right,
   .projects-line,
-  .projects-btn-hide,
   .html-capstone-mobile {
     display: none;
   }
@@ -587,6 +583,7 @@ main {
   .projects {
     width: 100%;
     margin: 30px 0;
+    text-align: center;
   }
 
   .projects h3 {
@@ -599,11 +596,11 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .projects-row-bottom {
-    margin-bottom: 15px;
+    margin-bottom: 40px;
   }
 
   .project-reverse {
@@ -622,6 +619,17 @@ main {
     justify-content: center;
   }
 
+  .weather-img {
+    width: 100%;
+    height: 80%;
+  }
+
+  .spaceshooter-img {
+    width: 100%;
+    height: 60%;
+    margin-bottom: 30px;
+  }
+
   .project-item-bohemian {
     margin-top: 15px;
     margin-left: 0;
@@ -632,6 +640,7 @@ main {
     width: 100%;
     image-rendering: optimizeQuality;
     padding: 0;
+    margin-bottom: 10px;
   }
 
   .projects-item h4 {
@@ -650,21 +659,11 @@ main {
     justify-content: center;
   }
 
-  .projects-btns .projects-btn-notshow,
-  .projects-btns-one .projects-btn-notshow {
-    margin-top: -10px;
-    padding-top: 6px;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 600;
-    display: block;
-  }
-
   .projects-btns,
   .projects-btns-one {
-    width: 100%;
+    width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   .projects-btns-one {
@@ -672,10 +671,7 @@ main {
   }
 
   .projects-btn-git {
-    height: 40px;
-    width: 100%;
-    font-size: 12px;
-    border-radius: 25px;
+    font-size: 16px;
     padding: 10px 0;
   }
 
@@ -684,9 +680,9 @@ main {
   }
 
   .replit {
-    margin-bottom: 0;
+    margin-bottom: 10px;
     width: 100%;
-    height: 300px;
+    height: 220px;
   }
 
   h5 .fa-hand-point-up {
@@ -698,6 +694,7 @@ main {
     width: 100%;
     height: auto;
     padding: 0;
+    margin-bottom: 30px;
   }
 
   .ror-capstone-img {
