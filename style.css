@@ -452,6 +452,12 @@ main {
 }
 
 /************* Media queries: mobile *************/
+@media (min-width: 300px) and (max-width: 767px) {
+  .tic-tac-project {
+    margin-top: 50px;
+  }
+}
+
 @media (min-width: 100px) and (max-width: 950px) {
   .navbar-intro,
   h5 .fa-hand-point-right,
@@ -853,6 +859,14 @@ main {
 
   .projects {
     margin-top: 50px;  
+  }
+
+  .tic-tac-project {
+    margin-top: 40px;
+  }
+
+  .replit {
+    height: 350px;
   }
 
   .ror-capstone-img {
