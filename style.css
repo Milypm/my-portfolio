@@ -698,8 +698,9 @@ main {
   }
 
   .ror-capstone-img {
-    width: 100%;
+    width: 50%;
     height: auto;
+    margin-left: -170px;
   }
 
   .ror-capstone-1,
@@ -841,6 +842,25 @@ main {
   .header-social-icons {
     margin-top: 0;
     margin-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header-social-icons-bar {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .projects {
+    margin-top: 50px;  
+  }
+
+  .ror-capstone-img {
+    margin-left: -350px;
+  }
+
+  .projects-btns {
+    width: 28%;
   }
 }
 
