@@ -108,19 +108,19 @@ ul {
   top: 70px;
   left: 220px;
   font-size: 20px;
-  color: #bf8bda;
+  color: #fff;
 }
 
 .header-right h1 {
   font-weight: 700;
   font-size: 60px;
-  color: #ae5bd6;
+  color: #fff;
 }
 
 .header-right h3 {
   font-weight: 500;
   font-size: 35px;
-  color: #bf8bda;
+  color: #fff;
 }
 
 .header-paragraph {
@@ -512,7 +512,7 @@ main {
   .navbar-ul a {
     margin-bottom: 0;
     margin-top: 5px;
-    color: #bf8bda;
+    color: #fff;
   }
 
   .header-back-gradient,
