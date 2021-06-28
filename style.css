@@ -114,12 +114,13 @@ ul {
 .header-right h1 {
   font-weight: 700;
   font-size: 60px;
-  color: rgb(213, 200, 221);
+  color: #ae5bd6;
 }
 
 .header-right h3 {
   font-weight: 500;
-  font-size: 30px;
+  font-size: 35px;
+  color: #a257c7;
 }
 
 .header-paragraph {
@@ -245,10 +246,10 @@ main {
 
 .html-capstone-mobile {
   position: relative;
-  width: 240px;
-  height: 390px;
-  top: 20px;
-  left: -160px;
+  width: 340px;
+  height: 490px;
+  top: 0px;
+  left: -170px;
   background: transparent;
   border: transparent;
 }
@@ -335,7 +336,7 @@ main {
   font-size: 20px;
   line-height: 32px;
   text-align: left;
-  color: #738382;
+  color: #717777;
   font-weight: 500;
 }
 
@@ -907,6 +908,12 @@ main {
 
   .header-right h1 {
     width: 90%;
+    font-size: 70px;
+    padding-left: 30px;
+  }
+
+  .header-right h3 {
+    font-size: 45px;
   }
 
   .header-social-icons-bar {
@@ -914,7 +921,8 @@ main {
   }
 
   main {
-    margin: 30px auto 0 auto;
+    width: 70%;
+    margin: 60px auto 0 auto;
   }
 
   .projects-btns {
