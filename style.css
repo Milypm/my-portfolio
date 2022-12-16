@@ -217,6 +217,11 @@ main {
   font-weight: 500;
 }
 
+.projects-item p {
+  font-size: 13px;
+  margin-top: 5px;
+}
+
 .projects-tools-tags {
   width: 100%;
   height: auto;
